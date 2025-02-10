@@ -1,7 +1,7 @@
 clear; close all;
 
 % Load data
-load('dateset_A_B.mat');  
+load('dataset_A_B.mat');  
 
 % Number of matrices
 num_matrices = 50;
