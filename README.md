@@ -6,7 +6,7 @@ This repository contains codes for $L_p$ norm regularization solvers and linear 
 
 Any comments and suggestions are welcome. 
 
-=================================
+========================================
 
 Solvers:
 
