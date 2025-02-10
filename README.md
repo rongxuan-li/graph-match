@@ -20,3 +20,6 @@ Data:
 
 * `data_set_A_B.mat`: One possible sets of random generated matrix A, B and random permutation matrix P.
 
+Results:
+
+* `main_result.m` : main code for obeserve the experimental results of different solvers.
