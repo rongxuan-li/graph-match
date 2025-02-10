@@ -93,7 +93,7 @@ end
         D = dualBB_projection(X_n_i - alpha * grad_F)-X_n_i;
         
         for j = 0:100
-            if objective_F(A, B, X_n,X_n_i + theta^j * D, lambda, epsilon) <= ...
+            if objective_F(A, B, X_n, X_n_i + theta^j * D, lambda, epsilon) <= ...
             Ci+ sigam * theta^j * grad_F(:)' * D(:)
                 break;
             end
