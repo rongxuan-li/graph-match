@@ -35,7 +35,6 @@ end
 % Save all matrices and permutations in the file
 save(fileName);
 
-
 % Matrix generating function
 
 function A =  creatingA(m)
