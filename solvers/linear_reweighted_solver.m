@@ -50,7 +50,7 @@ for k = 1:max_iter1
         
         % X_n: Subproblem initial solution
         % X_n_i: Subproblem iterative solution
-        [X, f_val] = find_KKT_point(A, B, X_n, X_n_i, lambda, epsilon);
+        [X, f_val] = find_min(A, B, X_n, X_n_i, lambda, epsilon);
         
         f_best = f_val;
         lambda = min(lambda + c_hat,lambdamax);
@@ -73,7 +73,7 @@ end
    
 end
 
-    function [X_new, f_val] = find_KKT_point(A, B, X_n, X_n_i, lambda, epsilon)
+function [X_new, f_val] = find_min(A, B, X_n, X_n_i, lambda, epsilon)
     max_iter = 2000;
     alpha_init = 1e-4;
     tol_x = 1e-2;
