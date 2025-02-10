@@ -33,7 +33,7 @@ function [X_best, f_best, out] = lp_norm_solver(P, A, B, p, epsilon_init, lambda
     c_hat = 1; % Regularization parameter increment
     n = size(B,1);
     X = 1/n*ones(n,n); % initial X
-    lambdamax=1e6; % safeguards 
+    lambdamax = 1e6; % safeguards 
 
     X_best = X; % The best X obtained
     f_best = inf; % f(X_best)
