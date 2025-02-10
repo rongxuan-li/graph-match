@@ -1,6 +1,6 @@
 # Regularization solvers for graph matching problem
 
-<img src = "https://github.com/rongxuan-li/graph-match/blob/main/image/cover.png" height="200"/>
+<img src = "https://github.com/rongxuan-li/graph-match/blob/main/image/cover.png" height="300"/>
 
 This repository contains codes for $L_p$ norm regularization solver and linear reweighted regularization solver for graph matching problem.
 
@@ -18,11 +18,11 @@ Data:
 
 * `matrix_generator.m`: Main code for generating random matrix and random permutation matrix.
 
-* `data_set_A_B.mat`: One possible sets of random generated matrix A, B and random permutation matrix P.
+* `data_set_A_B.mat`: One possible sets of random matrix A, B and random permutation matrix P.
 
 Results:
 
-* `main_result.m` : Main code for obeserving the experimental results of different solvers.
+* `main_result.m` : Main code for observing the experimental results of different solvers.
 
 <img src = "https://github.com/rongxuan-li/graph-match/blob/main/image/result_plot.png" height="200"/>
 
