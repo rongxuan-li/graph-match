@@ -22,4 +22,4 @@ Data:
 
 Results:
 
-* `main_result.m` : main code for obeserve the experimental results of different solvers.
+* `main_result.m` : Main code for obeserving the experimental results of different solvers.
