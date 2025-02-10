@@ -2,9 +2,6 @@
 
 <img src = "https://github.com/rongxuan-li/graph-match/blob/main/image/bodymatch_cover.png" height="200"/>
 
-<img src = "https://github.com/rongxuan-li/graph-match/blob/main/image/result_plot.png" height="200"/>
-
-
 This repository contains codes for $L_p$ norm regularization solver and linear reweighted regularization solver for graph matching problem.
 
 Any comments and suggestions are welcome. 
@@ -26,3 +23,7 @@ Data:
 Results:
 
 * `main_result.m` : Main code for obeserving the experimental results of different solvers.
+
+<img src = "https://github.com/rongxuan-li/graph-match/blob/main/image/result_plot.png" height="200"/>
+
+
