@@ -56,8 +56,8 @@ for k = 1:max_iter1
         lambda = min(lambda + c_hat,lambdamax);
         epsilon = max(0.9 * epsilon, 1e-3); 
 
-        X_n=X;
-        X_n_i=X;
+        X_n = X;
+        X_n_i = X;
 
         elapsed_time = toc; 
         objective_error = abs(norm(A * X - X * B, 'fro')^2-norm(A * P - P * B, 'fro')^2);
@@ -94,7 +94,7 @@ end
         
         for j = 0:100
             if objective_F(A, B, X_n,X_n_i + theta^j * D, lambda, epsilon) <= ...
-            Ci+ sigam*theta^j * grad_F(:)' * D(:)
+            Ci+ sigam * theta^j * grad_F(:)' * D(:)
                 break;
             end
         end
@@ -107,7 +107,7 @@ end
         X_new = X_n_i + theta^j * D;
                
         if (norm(X_new - X0, 'fro') / sqrt(m) < tol_x && ...
-                abs(objective_F(A, B,X_n, X_new, lambda, epsilon) - objective_F(A, B, X_n,X0, lambda, epsilon)) ...
+                abs(objective_F(A, B, X_n, X_new, lambda, epsilon) - objective_F(A, B, X_n, X0, lambda, epsilon)) ...
                 / (1 + abs(objective_F(A, B,X_n, X0, lambda, epsilon))) < tol_f)
             break;
         end
@@ -117,7 +117,7 @@ end
        
     end
     
-    f_val = objective_f(A,B,X_new);
+    f_val = objective_f(A, B, X_new);
 end
 
 
