@@ -18,7 +18,7 @@ Data:
 
 * `matrix_generator.m`: Main code for generating random matrix and random permutation matrix.
 
-* `data_set_A_B.mat`: One possible sets of random matrix A, B and random permutation matrix P.
+* `dataset_A_B.mat`: One possible sets of random matrix A, B and random permutation matrix P.
 
 Results:
 
