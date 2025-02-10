@@ -12,7 +12,7 @@ Solvers:
 
 * `linear_reweighted_solver.m`: Linear reweighted regularization slover for solving graph matching problem.
 
-* `lp_norm_solver.m`: $L_p$ norm regularization slover for solving graph matching problem. [Implemented based on Algorithm 2 in Jiang, B., Liu, Y.F. and Wen, Z., 2016. $L_p$norm regularization algorithms for optimization over permutation matrices. SIAM Journal on Optimization, 26(4), pp.2284-2313.]
+* `lp_norm_solver.m`: $L_p$ norm regularization slover for solving graph matching problem. [Implemented based on Algorithm 2 in Jiang, B., Liu, Y.F. and Wen, Z., 2016. Lp norm regularization algorithms for optimization over permutation matrices. SIAM Journal on Optimization, 26(4), pp.2284-2313.]
 
 Data:
 
