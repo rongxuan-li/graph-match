@@ -3,8 +3,8 @@ clear; close all;
 % Load data
 load('dataset_A_B.mat');  
 
-% Number of matrices
-num_matrices = 50;
+% Number of matrices (num_matrices = 50 in manuscript)
+num_matrices = 5;
 
 % Initialize cell arrays (3 methods, 50 matrices each)
 time_tracking = cell(3, num_matrices);
