@@ -24,6 +24,6 @@ Results:
 
 * `main_result.m` : Main code for observing the experimental results of different solvers.
 
-<img src = "https://github.com/rongxuan-li/graph-match/blob/main/image/result_plot.png" height="200"/>
+<img src = "https://github.com/rongxuan-li/graph-match/blob/main/image/result_plot.png" height="300"/>
 
 
