@@ -218,7 +218,5 @@ function P_plus = projection_nonnegative(M)
     P_plus = max(M, 0);
 end
 
-end
-
 
 
