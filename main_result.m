@@ -1,7 +1,9 @@
 clear; close all;
 
+addpath('solvers');
+
 % Load data
-load('dataset_A_B.mat');  
+load('data/dataset_A_B.mat');  
 
 % Number of matrices (num_matrices = 50 in manuscript)
 num_matrices = 5;
@@ -92,7 +94,9 @@ end
 xlim([0, 3]);
 set(gca, 'YScale', 'log'); % Set log scale for y-axis
 xlabel('Time (seconds)', 'Interpreter', 'latex', 'FontSize', 20);
-ylabel('Objective Error', 'Interpreter', 'latex', 'FontSize', 20);
+ylabel('$|\left( \| \mathbf{A} \mathbf{X} - \mathbf{X} \mathbf{B} \|_{F}^2 - \| \mathbf{A} \mathbf{P} - \mathbf{P} \mathbf{B} \|_{F}^2 \right|$', ...
+    'Interpreter', 'latex', ...
+    'FontSize', 20);
 title('Objective Error vs. Time', 'Interpreter', 'latex', 'FontSize', 20);
 legend(plot_handles, solver_names, 'Location', 'best', 'Interpreter', 'latex', 'FontSize', 20);
 grid on;
@@ -137,7 +141,7 @@ end
 xlim([0, 3]);
 set(gca, 'YScale', 'log'); % Set log scale for y-axis
 xlabel('Time (seconds)', 'Interpreter', 'latex', 'FontSize', 20);
-ylabel('Residual', 'Interpreter', 'latex', 'FontSize', 20);
+ylabel('$\|\mathbf{X} - \mathbf{P} \|_{F}^2$', 'Interpreter', 'latex', 'FontSize', 20);
 title('Residual vs. Time', 'Interpreter', 'latex', 'FontSize', 20);
 legend(plot_handles2, solver_names, 'Location', 'best', 'Interpreter', 'latex', 'FontSize', 20);
 grid on;
