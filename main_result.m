@@ -141,7 +141,7 @@ end
 xlim([0, 3]);
 set(gca, 'YScale', 'log'); % Set log scale for y-axis
 xlabel('Time (seconds)', 'Interpreter', 'latex', 'FontSize', 20);
-ylabel('$\|\mathbf{X} - \mathbf{P} \|_{F}^2$', 'Interpreter', 'latex', 'FontSize', 20);
+ylabel('$\|\mathbf{X} - \mathbf{P} \|_{F}$', 'Interpreter', 'latex', 'FontSize', 20);
 title('Residual vs. Time', 'Interpreter', 'latex', 'FontSize', 20);
 legend(plot_handles2, solver_names, 'Location', 'best', 'Interpreter', 'latex', 'FontSize', 20);
 grid on;
